@@ -1,12 +1,16 @@
-# 📊 DataWhiz - AI-Powered Data Analysis Tool
+# DataWhiz - AI-Powered Data Analysis Tool
 
 **Created by Jericho Sonon**
 
 DataWhiz is a powerful Streamlit application that combines data analysis, visualization, and AI-powered insights to help you understand your datasets better.
 
-## 🚀 Features
+## Live Demo
 
-### 📤 Upload & Preview
+Try DataWhiz online without installation: [https://day14-datawhizai.streamlit.app/](https://day14-datawhizai.streamlit.app/)
+
+## Features
+
+### Upload & Preview
 - Support for CSV and Excel files
 - Instant dataset overview with key metrics
 - Column information and data types
@@ -15,7 +19,7 @@ DataWhiz is a powerful Streamlit application that combines data analysis, visual
 - Data preview with scrollable table
 - Download processed data
 
-### 💬 Chat & Analyze
+### Chat & Analyze
 - AI-powered natural language queries
 - Ask questions about your data in plain English
 - Get statistical summaries and insights
@@ -23,7 +27,7 @@ DataWhiz is a powerful Streamlit application that combines data analysis, visual
 - Quick statistics display
 - Suggested question prompts
 
-### 📈 Visualizations
+### Visualizations
 - **Bar Charts** - Compare categories
 - **Scatter Plots** - Find correlations
 - **Line Charts** - Track trends
@@ -33,14 +37,14 @@ DataWhiz is a powerful Streamlit application that combines data analysis, visual
 - Interactive Plotly charts
 - Customizable axes and colors
 
-### 📄 Reports
+### Reports
 - AI-generated comprehensive summaries
 - Editable report content
 - Export to PDF
 - Export to Markdown
 - Professional formatting
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone or download this repository**
 
@@ -56,7 +60,7 @@ pip install -r requirements.txt
    GROQ_API_KEY=your_api_key_here
    ```
 
-## 🎯 Usage
+## Usage
 
 1. **Start the application:**
 ```bash
@@ -71,28 +75,28 @@ python -m streamlit run app.py
    - The app will automatically open at `http://localhost:8501`
 
 3. **Upload your data:**
-   - Navigate to "📤 Upload & Preview"
+   - Navigate to "Upload & Preview"
    - Upload a CSV or Excel file
    - Review the data overview
 
 4. **Analyze with AI:**
-   - Go to "💬 Chat & Analyze"
+   - Go to "Chat & Analyze"
    - Ask questions about your data
    - Get AI-powered insights
 
 5. **Create visualizations:**
-   - Visit "📈 Visualizations"
+   - Visit "Visualizations"
    - Choose chart type
    - Select columns
    - Generate interactive charts
 
 6. **Generate reports:**
-   - Navigate to "📄 Reports"
+   - Navigate to "Reports"
    - Use AI to auto-generate summaries
    - Edit and customize
    - Export to PDF or Markdown
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - streamlit==1.25.0
@@ -103,7 +107,7 @@ python -m streamlit run app.py
 - reportlab==4.0.0
 - openpyxl==3.1.2
 
-## 🔑 Getting a Groq API Key
+## Getting a Groq API Key
 
 1. Visit [Groq Console](https://console.groq.com/)
 2. Sign up or log in
@@ -111,7 +115,7 @@ python -m streamlit run app.py
 4. Create a new API key
 5. Copy and add to your `.env` file
 
-## 💡 Tips
+## Tips
 
 - **Data Quality:** Clean your data before uploading for best results
 - **File Size:** Keep files under 200MB for optimal performance
@@ -119,7 +123,7 @@ python -m streamlit run app.py
 - **Visualizations:** Choose appropriate chart types for your data
 - **Reports:** Use AI summaries as a starting point, then customize
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Import errors:**
 - Make sure all packages are installed: `pip install -r requirements.txt`
@@ -135,7 +139,7 @@ python -m streamlit run app.py
 - Try sampling your data first
 - Use CSV instead of Excel for better performance
 
-## 📝 Project Structure
+## Project Structure
 
 ```
 day 15/
@@ -154,15 +158,14 @@ day 15/
     └── report_generator.py # PDF/MD export
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and submit pull requests for improvements!
 
-## 📧 Contact
+## Contact
 
 Created by **Jericho Sonon**
 
 ---
 
-**Enjoy analyzing your data with DataWhiz! 📊✨**
-# day14-datawhizai
+**Enjoy analyzing your data with DataWhiz!**
